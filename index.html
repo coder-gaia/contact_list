@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/contact-icon.png" alt="check-logo">
+            <h1>Contact-List</h1>
+        </header>
+        <form id="contact-form">
+            <input type="text" required placeholder="Insert the name:" id="input-contact-name">
+            <input type="text" required  placeholder="Number:" minlength="10"  maxlength="11"  id="input-contact-number">
+            <button type="submit">Add +</button>
+        </form>
+
+        <table cellspacing="0">
+
+            <thead>
+                <tr>
+                    <th>Contact Name</th>
+                    <th>Telephone</th>
+                    <th>Added?</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>
